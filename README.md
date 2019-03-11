@@ -1,5 +1,4 @@
-# Word Embeddings: What works, what doesn’t, and how to tell the difference
-for applied research
+# Word Embeddings: What works, what doesn’t, and how to tell the difference for applied research
 
 Paper and related materials for Spirling & Rodriguez (2019).
 

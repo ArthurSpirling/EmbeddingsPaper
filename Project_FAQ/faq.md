@@ -42,7 +42,7 @@ All this leads to the classic example of analogies, that every exposition of emb
 You need a model. And there are lots and lots of options, starting with the "neural" models of the early-2000s.
 
 ## 10. Wow, "neural" sounds very involved, no?
-No, not really. Those models have been around for a long time too (at least since the 1990s). To reiterate, they got fast and scalable recently.
+No, not really. Those models have been around for a long time too (at least since the late-1990s/early-2000s). To reiterate, they got fast and scalable recently.
 
 ## 11. What model should I use?
 Up to you, but the most popular ones are:
@@ -133,7 +133,7 @@ Our focus corpus is the *Congressional Record* transcripts for the 102nd-111th C
 We use `GloVe` only (not `Word2Vec`, but we anticipate our results would be very similar if we did).
 
 ## 32. How does the Turing test work in practice?
-We give human coders a set of query or prompt words (from FAQ 28). They are told to come up with (ten) words that are close to those words, similar in meaning, would likely appear near them in a corpus etc. From the "machine" side we grab the ten nearest neighbors that the model suggests.
+We give human coders a set of query or prompt words (from FAQ 28). They are told to come up with (ten) words that are close to those words, similar in meaning, and which would likely appear "near them" in a corpus etc. From the "machine" side we grab the ten nearest neighbors that the model suggests.
 
 Finally, we ask (different, independent) human coders to compare the "human" nearest neighbors to the "machine" nearest neighbors (we don't tell them which is which). They just have to tell us which they think is a better fit for the prompt word in question.
 

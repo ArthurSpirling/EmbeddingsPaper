@@ -72,6 +72,8 @@ No, but neither is `Word2Vec` (see above).
 ## 17. Which is better?  `GloVe` or `Word2Vec`?
 Neither. For one thing, they are fundamentally similar in terms of  what they do (ultimately). There is some evidence that `GloVe` is a little more stable and perhaps performs better on some tasks.
 
+In our work, we found that "out of the box", `GloVe` initially worked better in terms of suggesting good nearest neighbors for cue words (see #27 below), relative to `Word2Vec` (skipgram). But once we subsetted the `Word2Vec` vocab to exclude very rare words, it performed almost identically to `GloVe` in terms of human coder preference.  
+
 ## 18. I have a corpus, how do I use these models?
 You can download the software (for either/both), and fit the models to your data. That will produce embeddings, once you've made some decisions about hyperparameters and a few other technical things like how the model will iterate through fitting steps.  
 

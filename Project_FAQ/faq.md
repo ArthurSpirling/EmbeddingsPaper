@@ -132,7 +132,7 @@ Our focus corpus is the *Congressional Record* transcripts for the 102nd-111th C
 - embedding dimensions: 50, 100, 200, 300, 450
 
 ## 31.  What model do we use?
-We use `GloVe` only (not `Word2Vec`, but we anticipate our results would be very similar if we did).
+We use both `GloVe` and `Word2Vec`.  But we treat `GloVe` as a kind of baseline in the first two-thirds of the paper. Then towards the end of the paper we compare `GloVe`'s performance to `Word2Vec`, in terms of human coder preference.  This comparison is slightly complicated in practice, owing to different vocabularies used by the models.
 
 ## 32. How does the Turing test work in practice?
 We give human coders a set of query or prompt words (from FAQ 28). They are told to come up with (ten) words that are close to those words, similar in meaning, and which would likely appear "near them" in a corpus etc. From the "machine" side we grab the ten nearest neighbors that the model suggests.

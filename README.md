@@ -8,7 +8,7 @@ Paper and related materials for [Rodriguez](http://prodriguezsosa.com/) & [Spirl
 
 
 
-You can find the paper [here](https://github.com/ArthurSpirling/EmbeddingsPaper/blob/master/Paper/Embeddings_SpirlingRodriguez.pdf) and an FAQ for the project [here](https://github.com/ArthurSpirling/EmbeddingsPaper/blob/master/Project_FAQ/faq.md).
+You can find the paper [here](https://github.com/ArthurSpirling/EmbeddingsPaper/blob/master/Paper/Embeddings_SpirlingRodriguez.pdf) and an FAQ for the project [here](https://github.com/ArthurSpirling/EmbeddingsPaper/blob/master/Project_FAQ/faq.md).  Replication code is [here](https://github.com/prodriguezsosa/EmbeddingsPaperReplication)
 
 The paper is now forthcoming at the *Journal of Politics*---but comments are (still) very welcome! 
 

@@ -10,7 +10,7 @@ Paper and related materials for [Rodriguez](http://prodriguezsosa.com/) & [Spirl
 
 You can find the paper [here](https://github.com/ArthurSpirling/EmbeddingsPaper/blob/master/Paper/Embeddings_SpirlingRodriguez.pdf) and an FAQ for the project [here](https://github.com/ArthurSpirling/EmbeddingsPaper/blob/master/Project_FAQ/faq.md).  Replication code is [here](https://github.com/prodriguezsosa/EmbeddingsPaperReplication)
 
-The paper is now published at the *Journal of Politics*. Full citation is:
+The paper is now published at the [*Journal of Politics*](https://www.journals.uchicago.edu/doi/10.1086/715162). Full citation is:
 
 ```
 @article{rodriguez2022word,

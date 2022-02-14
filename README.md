@@ -19,7 +19,7 @@ The paper is now published at the *Journal of Politics*. Full citation is:
   journal={The Journal of Politics},
   volume={84},
   number={1},
-  pages={000--000},
+  pages={101--115},
   year={2022},
   publisher={The University of Chicago Press Chicago, IL}
 }
